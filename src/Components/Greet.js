@@ -5,7 +5,7 @@ import React from 'react'
 // }
 const Greet = (props) => {
    return (<div>
-       <h1>Hello {props.name} a.k.a {props.HeroName}</h1>
+       <h1>Hello {props.name} a.k.a {props.HeroName} in {props.city}</h1>
        {props.children}
    </div>);
 } 
