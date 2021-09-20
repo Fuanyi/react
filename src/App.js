@@ -3,11 +3,13 @@ import './App.css';
 import Message from './Components/Message';
 import Greet from './Components/Greet';
 import Welcome from './Components/Welcome';
+import Counter from './Components/Counter';
 class App extends Component {
   render(){
     return(
       <div className = "App">
-        <Message/>
+        <Counter />
+        {/* <Message/> */}
         {/* <Greet  name="Bruce" HeroName = 'Batman'>
           <p>Batman Had a Peri</p>
         </Greet>
